@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #004d00, #00cc66);;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+.login {
+    width: 450px;
+    padding: 30px;
+    background-color: rgba(0, 51, 0, 0.9);;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.enter-username {
+    height: 40px;
+    width: 100%;
+    margin: 25px 0px;
+    border: 1px solid #3b36cc;
+    display: flex;
+    background: rgba(0, 255, 128, 0.2);
+    border-radius: 5px;
+}
+
+.enter-username > input{
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.enter-password {
+    height: 40px;
+    width: 100%;
+    margin: 25px 0px;
+    border: 1px solid #3b36cc;
+    display: flex;
+    background: rgba(0, 255, 128, 0.2);
+    border-radius: 5px;
+}
+
+.enter-password > input{
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.login-button {
+    background: linear-gradient(to right, #00994d, #00cc66);;
+    color: white;
+    border: none;
+    padding: 12px 40px;  
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px; 
+    width: 100%;  
+    max-width: 300px; 
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+    background: linear-gradient(to right, #00802b, #00b359); 
+    transform: scale(1.05);;
+}
+
+.white-placeholder::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.logo-container {
+    margin-bottom: 10px; /* Adds spacing between logo and login box */
+}
+
+.logo-container img {
+    width: 450px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+}

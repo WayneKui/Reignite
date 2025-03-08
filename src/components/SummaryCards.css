@@ -1,0 +1,68 @@
+.summary-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 111px;
+    justify-content: flex-start; /* Align to the left */
+    padding: 20px;
+}
+  
+.summary-card {
+    background: #fff;
+    padding: 25px 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Stack text above icon */
+    align-items: center; /* Center everything */
+    min-width: 200px;
+    text-align: center; /* Ensure text is centered */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+  
+.summary-card:hover {
+    transform: translateY(-5px);
+}
+  
+.card-content h3 {
+    margin-bottom: 10px;
+    font-size: 26px; /* Bigger text */
+    font-weight: bold;
+}
+  
+.card-icon {
+    font-size: 40px; /* Bigger icon */
+    padding: 12px;
+    border-radius: 50%;
+}
+  
+.icon {
+    font-size: 40px;
+}
+  
+.users {
+    color: #3498db;
+}
+  
+.votes {
+    color: #e74c3c;
+}
+  
+.activities {
+    color: #2ecc71;
+}
+  
+.revenue {
+    color: #f1c40f;
+}
+  
+.card-content h3 {
+    margin: 0;
+    font-size: 26px; /* Increase text size */
+    font-weight: bold;
+}
+  
+.card-content p {
+    margin: 5px 0 0;
+    font-size: 18px; /* Increase secondary text size */
+    color: #555;
+}

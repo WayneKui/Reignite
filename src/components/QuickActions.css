@@ -1,0 +1,27 @@
+.quick-actions {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+  }
+  
+  .quick-actions button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .quick-actions h3 {
+    text-align: center; /* Centers the title */
+    color: black; /* Sets title color to black */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+.sidebar {
+    width: 250px;
+    background-color: peachpuff;
+    color: black;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    width: 100%; /* Ensure it takes full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px; /* Adjust space below logo */
+}
+  
+.sidebar-logo {
+    width: 150px; /* Adjust size */
+    max-width: 280px;
+    height: auto;
+}
+  
+.menu {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+  
+.menu ul {
+  padding: 0;
+  width: 100%; /* Ensure full width */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+  
+.menu li {
+  width: 100%;
+}
+  
+.menu li a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px; /* Adjust size */
+    font-family: 'Arial', sans-serif; /* Change font */
+    font-weight: bold; /* Make text bold */
+    text-align: left; /* Center the text */
+    letter-spacing: 1px; /* Add space between letters */
+    transition: background 0.3s, transform 0.2s;
+}
+  
+.menu li a:hover {
+    background: lightskyblue;
+    color: white;
+    transform: scale(1.05);
+}
+
+.icon {
+  font-size: 20px;
+  position: relative;
+  top: -1px;
+}
+  
+.main-content {
+    margin-left: 250px; 
+    padding: 80px 20px;
+    margin-top: 60px;
+    width: calc(100% - 250px);
+}

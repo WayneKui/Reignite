@@ -1,0 +1,26 @@
+.recent-activity {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+  }
+  
+  .recent-activity ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+  }
+  
+  .recent-activity li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .recent-activity h3 {
+    text-align: center; /* Centers the title */
+    color: black; /* Sets title color to black */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
